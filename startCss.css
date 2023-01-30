@@ -1,0 +1,102 @@
+body{
+  background-image: url("321countdown.gif");
+  background-size:cover;
+  
+  height: 50VH;
+  padding: 0%;
+  margin: 0%;
+
+}
+#h1{
+  text-align: center;
+  font-size: 45pt;
+}
+h1 span
+{
+  display: block;
+  transition: .5s linear;
+}
+h1:hover span:nth-child(1)
+{
+  margin-right: 5px;
+}
+h1:hover span:nth-child(1)::after{
+  content: "'";
+}
+h1:hover span:nth-child(2){
+  margin-left: 30px;
+}
+h1:hover span{
+  color: #fff;
+  text-shadow: 0 0 10px orange,
+               0 0 20px  purple,
+               0 0 40px  purple;
+}
+
+
+#sec
+{
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
+  text-decoration: none;
+  
+  
+}
+#play{
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  background-color: black;
+  color: #fff;
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  display: block;
+}
+#play{
+  background-color: black; 
+    color: white; 
+    border: 3px solid black;
+}
+#play:hover{
+  background-color: white;
+  color: black;
+  border: 3px solid white;
+}
+#how{
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-decoration: none;
+  display: block;
+  background-color: black;
+  color: #fff;
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+#how{
+  background-color: black; 
+    color: white; 
+    border: 3px solid black;
+}
+#how:hover{
+  background-color: white;
+  color: black;
+  border: 3px solid white;
+}
